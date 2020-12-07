@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  ~ Copyright 2010—2016 Denis Nelubin and others.
+  ~
+  ~ This file is part of Weather Notification.
+  ~
+  ~ Weather Notification is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ Weather Notification is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with Weather Notification.  If not, see http://www.gnu.org/licenses/.
+  -->
+
+<resources>
+    <string name="app_name">Weather notification</string>
+    <string name="weather">氣象</string>
+    <string name="notification">通知</string>
+    <string name="enable_notification">啟用通知</string>
+    <string name="refresh_interval">更新間隔</string>
+    <string name="refresh_15m">每15分鐘</string>
+    <string name="refresh_30m">每30分鐘</string>
+    <string name="refresh_1h">每小時</string>
+    <string name="refresh_2h">每2小時</string>
+    <string name="refresh_3h">每3小時</string>
+    <string name="refresh_4h">每4小時</string>
+    <string name="refresh_6h">每6小時</string>
+    <string name="refresh_12h">每12小時</string>
+    <string name="refresh_1d">每天</string>
+    <string name="location">位置</string>
+    <string name="auto_location">自動偵測</string>
+    <string name="auto_location_summary_on">自動偵測目前位置</string>
+    <string name="auto_location_summary_off">手動設定氣象位置</string>
+    <string name="manual_location">氣象位置</string>
+    <string name="weather_update_empty">\"%s\" 的氣象不明</string>
+    <string name="weather_update_failed">氣象更新失敗：%s</string>
+    <string name="weather_update_no_network">氣象更新失敗：沒有網路連線</string>
+    <string name="weather_update_unknown_location">氣象更新失敗：不明的位置</string>
+    <string name="skin">界面</string>
+    <string name="skins">界面</string>
+    <string name="skins_preferences">界面偏好</string>
+    <string name="skins_install">安裝界面</string>
+    <string name="builtin_skin">內建界面</string>
+    <string name="builtin_skin_preferences">內建界面偏好</string>
+    <string name="start_update_service_permission">開啟氣象更新服務</string>
+    <string name="start_update_service_permission_description">允許應用程式開啟氣象更新服務以取得新的氣象數值</string>
+    <string name="location_type">偵測位置</string>
+    <string name="location_gps">藉由 GPS 衛星</string>
+    <string name="location_network">藉由行動網路或 Wi-Fi 網路</string>
+    <string name="location_manual">手動</string>
+    <string name="location_disabled">這項位置偵測方式已在裝置設定中停用。您要開啟設定以啟用它嗎？</string>
+    <string name="open_settings">開啟設定</string>
+    <string name="debug">除錯</string>
+    <string name="api_debug">API 除錯</string>
+    <string name="api_debug_summary">每一項對 Weather API 的請求將存入檔案至 \'%s\'</string>
+    <string name="openweathermap">OpenWeatherMap</string>
+    <string name="owm_api_key">API 金鑰</string>
+    <string name="owm_api_key_description">輸入您自己的 API 金鑰</string>
+    <string name="owm_api_key_description_full">從 <a href="http://openweathermap.org/appid\">http://openweathermap.org/appid</a> 取得您的 API 金鑰</string>
+    <string name="permission_required">需要權限</string>
+    <string name="permission_required_details">點擊這裡以開啟 Weather notification 設定</string>
+    <string name="status_bar_icon_style">狀態列圖示</string>
+    <string name="status_bar_temperature_icon">溫度</string>
+    <string name="status_bar_weather_condition_icon">氣象狀態</string>
+    <string name="owm_api_key_failure_notice">您需要使用自己的 OpenWeatherMap API 金鑰。</string>
+</resources>
